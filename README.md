@@ -1,9 +1,14 @@
+# What is Markdown/.md file? and how to write it?
+
+## ***Introduction to MarkDown file***
+> Markdown is an easy-to-read, easy-to-write language for formatting plain text. You can use Markdown syntax, along with some additional HTML tags, to format your writing on GitHub, in places like repository READMEs and comments on pull requests and issues. In this guide, you'll learn some advanced formatting features by creating or editing a README for your GitHub profile.
+
+Currently you are reading a README.md `markdown` file. Let's learn how to write `markdown/.md` file.
+
 # ***How to write README.md file?***
 
-Currently you are reading a README.md `.md` file. Let's learn how to write `.md` file.
-
----
----
+-------------
+-------------
 ## **Header create:**
 To create header you have to use # (# your text).
 If you know HTML syntax it will be easy to you:
@@ -18,7 +23,7 @@ If you know HTML syntax it will be easy to you:
   ###### = h6 (and 6th bigger)
 ```
 #### **`Output:`**
-  # (#)= h1 (Most bigest heading)
+  # = h1 (Most bigest heading)
   ## = h2 (2nd bigger)
   ### = h3 (3rd bigger)
   #### = h4 (4th bigger)
