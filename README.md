@@ -238,7 +238,7 @@ syntax:
 ```
 ![App Screenshot](https://your-short-link)
 ```
-![App Screenshot](https://via.placeholder.com/500x300?text=App+Screenshot+Here)
+![App Screenshot](https://github.com/code2-0/TestingImages/blob/main/img/code2-0.png)
 
 
 
