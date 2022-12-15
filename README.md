@@ -344,12 +344,36 @@ You can also use words, to fit your writing style more closely[^note].
 ##  **chart:**
 Here is a simple flow chart:
 
+```
+    ```mermaid
+      graph TD;
+          A-->B;
+          A-->C;
+          B-->D;
+          C-->D;
+    ```
+```
 ```mermaid
   graph TD;
       A-->B;
       A-->C;
       B-->D;
       C-->D;
+```
+```mermaid
+  graph TD;
+      A-->B;
+      B-->C;
+      C-->D;
+      D-->E;
+      E-->F;
+      F-->G;
+      G-->F;
+      F-->E;
+      E-->D;
+      D-->C;
+      C-->B;
+      B-->A
 ```
 
 
