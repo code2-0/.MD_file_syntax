@@ -366,12 +366,12 @@ Here is a simple flow chart:
   graph TD;
       A-->B;
       A-->C;
-      B-->D;
-      C-->D;
       A-->X;
-      B-->X;
-      C-->X;
+      B-->D;
       D-->X;
+      B-->X;
+      C-->D;
+      C-->X;
 ```
 
 ## **JavaScript Bubble Dayagram:**
