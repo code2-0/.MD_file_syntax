@@ -111,17 +111,20 @@ To make a order list follow below syntax:
 ---
 
 ## **Make Unorder List:**
-To make list you have to use *(single star) or, -(single hyphen) and `space` at the begining of line.
+To make list you have to use *(single star) or, -(single hyphen) or, +(plus) and `space` at the begining of line.
 
 Syntax:
 ```
   - I'm list item using (-)
   or,
   * I'm list item using (*)
+  or,
+  + I'm list using (+)
 ```
 #### **`Output:`**
   - I'm list item using (-)
   * I'm list item using (*)
+  + I'm list item using (+)
   
 ---
 ---
@@ -135,6 +138,8 @@ Syntax:
 ```
 #### **`Output:`**
   * [x] Checkbox list item
+  * [] Checkbox list item
+  * [] Checkbox list item
 
 ---
 ---
