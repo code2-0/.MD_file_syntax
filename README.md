@@ -1,2 +1,181 @@
-# .MD_file_syntax
- README.MD file writing syntax
+# ***How to write README.md file?***
+
+Currently you are reading a README.md `.md` file. Let's learn how to write `.md` file.
+
+---
+## **Header create:**
+To create header you have to use # (# your text).
+If you know HTML syntax it will be easy to you:
+ 
+ Syntax:
+```md
+  # = h1 (Most bigest heading)
+  ## = h2 (2nd bigger)
+  ### = h3 (3rd bigger)
+  #### = h4 (4th bigger)
+  ##### = h5 (5th bigger)
+  ###### = h6 (and 6th bigger)
+```
+#### **`Output:`**
+  # (#)= h1 (Most bigest heading)
+  ## = h2 (2nd bigger)
+  ### = h3 (3rd bigger)
+  #### = h4 (4th bigger)
+  ##### = h5 (5th bigger)
+  ###### = h6 (and 6th bigger)
+---
+
+## **Make text bold:**
+To make text **bold** you have to use ** (double star). And you have to wrap the text with **.
+
+Syntax:
+```
+  **YEEE! I'm bold text.**
+```
+There is another option to make text bold, use __ (dobule underscore) and wrap your text with __. 
+
+Syntax:
+```
+  __YEEE! I'm bold text.__
+```
+#### **`Output:`**
+  __YEEE! I'm bold text.__
+ - [x] **NOTE:** There should not have a `space` begining and ending of **(dobule star). If have it will not work: ** it will not work **.
+
+ ---
+
+## ***Text Italic:***
+To make text _italic_ you have to use *(single star) or, _ (single underscore) and don't use `space` begin and end.
+
+Syntax:
+```
+  _This is italic text_
+  or,
+  *This is italic text*
+```
+#### **`Output:`**
+  *This is italic text.*
+
+---
+
+## Make text **Bold +** ***Italic:***
+To make text bold and italic apply together you have to use ***(triple star) or, ___(triple underscore).
+
+Syntax:
+```
+***italic bold text***
+or,
+___italic bold text___
+or,
+**_ italic bold text_**
+```
+#### **`Output:`**
+**_italic bold text_**
+
+---
+
+## **Make text highlight:**
+To make text `highlighted` you have to use ``.
+
+Syntax:
+```
+  `I'm highlighted text`
+  ```
+#### **`Output:`**
+  `I'm highlighted text.`
+
+---
+
+## **Make List:**
+To make list you have to use *(single star) or, -(single hyphen) and `space` at the begining of line.
+
+Syntax:
+```
+  - I'm list item using (-)
+  or,
+  * I'm list item using (*)
+```
+#### **`Output:`**
+  - I'm list item using (-)
+  * I'm list item using (*)
+  
+---
+
+## **List With Checkbox:**
+To make checkbox list you have to use * `space` [x].
+
+Syntax:
+```
+  * [x] Checkbox list item
+```
+#### **`Output:`**
+  * [x] Checkbox list item
+
+---
+
+## **Use Link Text:**
+To make text with link use this 
+[Link text](your link)
+
+Syntax:
+```
+[Go to google](https://google.com)
+```
+#### **`Output:`**
+***[Go to google](https://google.com)***
+
+---
+
+## **Create Table:**
+
+```
+| Name          | Passion        | Email                      |
+| :------------ | :------------- | :------------------------- |
+| `Keya Payel`  | Actor          | myemail123@gmail.com       |
+| `Asik Ali`    | Web Developer | myemail234@gmail.com       |
+```
+#### **`Output:`**
+| Name          | Passion        | Email                      |
+| :------------ | :------------- | :------------------------- |
+| `Keya Payel`  | Actor          | myemail123@gmail.com       |
+| `Asik Ali`    | Web Developer  | myemail234@gmail.com       |
+
+---
+
+## **🔗 Links**
+To use well organized and designed link you have to use an `api` there would be many options. I use this one. You can use this.
+```
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://your-link.com/)
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+[![twitter](https://img.shields.io/badge/instagram-F00000?style=for-the-badge&logo=instagram&logoColor=white)](https://twitter.com/)
+```
+#### **`Output:`**
+
+[![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://personal-portfolio-ashik.web.app/)
+
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/md-ashik-ali/)
+
+[![twitter](https://img.shields.io/badge/twitter-1BA9DB?style=for-the-badge&logo=twitter&logoColor=white)](https://twitter.com/md_ashik_ali)
+
+[![twitter](https://img.shields.io/badge/facebook-0035BC?style=for-the-badge&logo=facebook&logoColor=white)](https://web.facebook.com/ashik.ali0/)
+
+[![twitter](https://img.shields.io/badge/instagram-FB0508?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/md_ashik_ali_khan/)
+
+[![twitter](https://img.shields.io/badge/codepen-222?style=for-the-badge&logo=codepen&logoColor=white)](https://codepen.io/ali-ashik)
+
+
+## **Badge:**
+Design your badge with this link: modify this `api` change `<LABEL>, <MESSAGE> and <COLOR>`
+```
+![](https://img.shields.io/badge/YEEE-Successssss-blue)
+![](https://img.shields.io/static/v1?label=YEEE&message=Successsss&color=0A66C2)
+
+```
+#### **`Output:`**
+![](https://img.shields.io/badge/YEEE-Successssss-blue)
+
+
+![](https://img.shields.io/static/v1?label=YEEE&message=Successsss&color=f00)
+
+
+h
