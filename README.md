@@ -294,20 +294,21 @@ _____
   <details>
     <summary>My top Technologies:</summary>
 
-    | Rank | Tech |
-    |-----:|-----------|
-    |     1| Javascript|
-    |     2| MongoDb   |
-    |     3| Express   |
-    |     4| ReactJS   |
-    |     5| SASS      |
+    Your text/ content or list items
+    * Item 111101
+    * Item 111102
+    * Item 111103
+    * Item 111104
     
   </details>
 
   -------------
   -------------
 
+  @octocat :wink:
+
 ## **Write Code:**
+To format code or text into its own distinct block, use triple backticks.
 If you want to write code and want to show as like as code editor than use this syntax:
 ```bash
     ```js ==>> (language_name)
