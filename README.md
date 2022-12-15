@@ -141,8 +141,28 @@ Syntax:
   * [ ] Checkbox list item
   * [ ] Checkbox list item
 
----
----
+---------
+---------
+
+## **Nasted List:**
+To create list under list/ nasted list use this syntax:
+```
+  - Grand Parent list item.
+    * Parent list item.
+      + child list item.
+        1. child list item.
+        1. child list item.
+            1. child list item.
+            1. child list item.
+```
+#### **`Output:`**
+  - Grand Parent list item.
+    * Parent list item.
+      + child list item.
+        1. child list item.
+        1. child list item.
+            1. child list item.
+            1. child list item.
 
 ## **Use Link Text:**
 To make text with link use this 
@@ -218,6 +238,23 @@ Design your badge with this link: modify this `api` change `<LABEL>, <MESSAGE> a
 ---
 ---
 
+## **Write quote:**
+
+To write quote use > sign.
+
+Syntax:
+```
+  #### Github say:
+  > Markdown has many other options for formatting your content. Here, you'll add a horizontal rule to divide your page and a blockquote to format your favorite quote.
+```
+#### **`Output:`**
+  #### Github say:
+  > Markdown has many other options for formatting your content. Here, you'll add a horizontal rule to divide your page and a blockquote to format your favorite quote.
+
+
+--------------
+--------------
+
 ## **Create Line:**
 To create horaizontal line you have to use ---(triple hyphen/more) or, ___(3 underscore/more).
 
@@ -282,8 +319,19 @@ syntax:
 #### **`Output:`**
 ![App Screenshot](https://github.com/code2-0/TestingImages/blob/main/img/code2-0.png)
 
----
----
+-------
+-------
+
+## **ADD Image**
+```bas
+  <img src="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png" />
+```
+#### **`Output:`**
+<img src="https://user-images.githubusercontent.com/25423296/163456776-7f95b81a-f1ed-45f7-b7ab-8fa810d529fa.png" />
+
+-------
+-------
+
 
 ## **Strikethrough:**
 To make text Strikethrough use below syntax:
@@ -374,6 +422,11 @@ Here is a simple flow chart:
       C-->X;
 ```
 
+--------------
+--------------
+
+
+
 ## **JavaScript Bubble Dayagram:**
 
 ```mermaid
@@ -405,6 +458,3 @@ Here is a simple flow chart:
       Document-->Window;      
 
 ```
-
-
-h
