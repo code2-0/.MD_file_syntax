@@ -361,13 +361,21 @@ Here is a simple flow chart:
           C-->D;
     ```
 ```
+#### **`Output:`**
 ```mermaid
   graph TD;
       A-->B;
       A-->C;
       B-->D;
       C-->D;
+      A-->X;
+      B-->X;
+      C-->X;
+      D-->X;
 ```
+
+## **JavaScript Bubble Dayagram:**
+
 ```mermaid
   graph TD;
       Window-->Document;
