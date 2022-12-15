@@ -380,9 +380,23 @@ Here is a simple flow chart:
       table-->tbody;
       table-->thead;
       tbody-->tr;
+      thead-->tr;
+      tr-->th;
       tr-->td;
       td-->button;
-      thead-->tr
+      th-->button;
+      button-->td;
+      td-->tr;
+      tr-->tbody;
+      tbody-->table;
+      table-->section;
+      section-->article;
+      article-->main;
+      main-->body;
+      body-->html;
+      html-->Document;
+      Document-->Window;      
+
 ```
 
 
