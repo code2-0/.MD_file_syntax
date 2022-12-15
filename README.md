@@ -371,18 +371,18 @@ Here is a simple flow chart:
 ```mermaid
   graph TD;
       Window-->Document;
-      Document--><html>;
-      <html>--><body>;
-      <body>--><main>;
-      <main>--><article>;
-      <article>--><section>;
-      <section>--><table>;
-      <table>--><tbody>;
-      <table>--><thead>;
-      <tbody>--><tr>;
-      <tr>--><td>;
-      <td>--><button>;
-      <thead>--><tr>
+      Document-->html;
+      html-->body;
+      body-->main;
+      main-->article;
+      article-->section;
+      section-->table;
+      table-->tbody;
+      table-->thead;
+      tbody-->tr;
+      tr-->td;
+      td-->button;
+      thead-->tr
 ```
 
 
