@@ -132,7 +132,7 @@ Syntax:
 | Name          | Passion        | Email                      |
 | :------------ | :------------- | :------------------------- |
 | `Keya Payel`  | Actor          | myemail123@gmail.com       |
-| `Asik Ali`    | Web Developer | myemail234@gmail.com       |
+| `Asik Ali`    | Web Developer  | myemail234@gmail.com       |
 ```
 #### **`Output:`**
 | Name          | Passion        | Email                      |
@@ -142,11 +142,13 @@ Syntax:
 
 ---
 
-## **🔗 Links**
+## **🔗 Links Design**
 To use well organized and designed link you have to use an `api` there would be many options. I use this one. You can use this.
 ```
 [![portfolio](https://img.shields.io/badge/my_portfolio-000?style=for-the-badge&logo=ko-fi&logoColor=white)](https://your-link.com/)
+
 [![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/)
+
 [![twitter](https://img.shields.io/badge/instagram-F00000?style=for-the-badge&logo=instagram&logoColor=white)](https://twitter.com/)
 ```
 #### **`Output:`**
@@ -166,16 +168,80 @@ To use well organized and designed link you have to use an `api` there would be 
 
 ## **Badge:**
 Design your badge with this link: modify this `api` change `<LABEL>, <MESSAGE> and <COLOR>`
+[`https://img.shields.io/badge/<LABEL>-<MESSAGE>-<COLOR>`]
 ```
 ![](https://img.shields.io/badge/YEEE-Successssss-blue)
-![](https://img.shields.io/static/v1?label=YEEE&message=Successsss&color=0A66C2)
+![](https://img.shields.io/badge/YEEE-Successssss-F00)
+
 
 ```
 #### **`Output:`**
 ![](https://img.shields.io/badge/YEEE-Successssss-blue)
 
+![](https://img.shields.io/badge/YEEE-Successsss-00f)
 
-![](https://img.shields.io/static/v1?label=YEEE&message=Successsss&color=f00)
+![](https://img.shields.io/badge/NOOP!!!-Failure-f00)
+
+---
+
+## **Create Line:**
+To create horaizontal line you have to use ---(triple hyphen) or, ___(3 underscore).
+
+Syntax:
+```
+  ---
+  or,
+  ___
+```
+#### **`Output:`**
+---
+___
+
+## **Write Code:**
+If you want to write code and want to show as like as code editor than use this syntax:
+```bash
+    ```js ==>> (language_name)
+
+        //script here
+        function recursion (x) {
+          if(x===0){
+            return 1;
+          } else{
+            return x * recursion(x-1);
+          };
+        };
+
+        const recursion_of_five = recursion(5);
+        console.log(recursion_of_five);
+
+    ```
+```
+#### **`Output:`**
+```js
+    //script here
+    function recursion (x) {
+      if(x===0){
+        return 1;
+      } else{
+        return x * recursion(x-1);
+      };
+    };
+
+    const recursion_of_five = recursion(5);
+    console.log(recursion_of_five);
+
+```
+---
+## **ADD ScreenShort:**
+
+syntax:
+```
+![App Screenshot](https://your-short-link)
+```
+![App Screenshot](https://via.placeholder.com/500x300?text=App+Screenshot+Here)
+
+
+
 
 
 h
