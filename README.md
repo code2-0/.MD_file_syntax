@@ -338,6 +338,14 @@ You can also use words, to fit your writing style more closely[^note].
 #### **`Output:`**
  $\sqrt{3x-1}+(1+x)^2$
 
+ **More Complex:**
+ ```bash
+  $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+```
+#### **`Output:`**
+  $$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+
+
 ---------------
 ---------------
 
@@ -362,18 +370,19 @@ Here is a simple flow chart:
 ```
 ```mermaid
   graph TD;
-      A-->B;
-      B-->C;
-      C-->D;
-      D-->E;
-      E-->F;
-      F-->G;
-      G-->F;
-      F-->E;
-      E-->D;
-      D-->C;
-      C-->B;
-      B-->A
+      Window-->Document;
+      Document--><html>;
+      <html>--><body>;
+      <body>--><main>;
+      <main>--><article>;
+      <article>--><section>;
+      <section>--><table>;
+      <table>--><tbody>;
+      <table>--><thead>;
+      <tbody>--><tr>;
+      <tr>--><td>;
+      <td>--><button>;
+      <thead>--><tr>
 ```
 
 
