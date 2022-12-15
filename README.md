@@ -305,7 +305,17 @@ _____
   -------------
   -------------
 
-  @octocat :wink:
+## **Emoji:**
+You can add emoji to your writing by typing :EMOJICODE:.
+
+* :star_struck:
+* :joy:
++ :upside_down_face:
+
+For a full list of available emoji and codes, check out the [Emoji-Cheat-Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
+
+------------
+------------
 
 ## **Write Code:**
 To format code or text into its own distinct block, use triple backticks.
