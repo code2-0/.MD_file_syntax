@@ -280,13 +280,11 @@ _____
   <details>
   <summary>My top Technologies:</summary>
 
-  | Rank | Tech |
-  |-----:|-----------|
-  |     1| Javascript|
-  |     2| MongoDb   |
-  |     3| Express   |
-  |     4| ReactJS   |
-  |     5| SASS      |
+  Your text/ content or list items
+    * Item 111101
+    * Item 111102
+    * Item 111103
+    * Item 111104
     
   </details>
 ```
@@ -310,7 +308,8 @@ You can add emoji to your writing by typing :EMOJICODE:.
 
 * :star_struck:
 * :joy:
-+ :upside_down_face:
+* :upside_down_face:
+* :facepunch:
 
 For a full list of available emoji and codes, check out the [Emoji-Cheat-Sheet](https://github.com/ikatyang/emoji-cheat-sheet/blob/master/README.md).
 
