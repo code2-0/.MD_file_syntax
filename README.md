@@ -384,7 +384,6 @@ Here is a simple flow chart:
       tr-->th;
       tr-->td;
       td-->button;
-      th-->button;
       button-->td;
       td-->tr;
       tr-->tbody;
