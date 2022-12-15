@@ -272,7 +272,40 @@ Syntax:
 ---
 --------------
 _______________
-___
+_____
+
+## **Collapesable section:**
+
+```html
+  <details>
+  <summary>My top Technologies:</summary>
+
+  | Rank | Tech |
+  |-----:|-----------|
+  |     1| Javascript|
+  |     2| MongoDb   |
+  |     3| Express   |
+  |     4| ReactJS   |
+  |     5| SASS      |
+    
+  </details>
+```
+#### **`Output:`**
+  <details>
+    <summary>My top Technologies:</summary>
+
+    | Rank | Tech |
+    |-----:|-----------|
+    |     1| Javascript|
+    |     2| MongoDb   |
+    |     3| Express   |
+    |     4| ReactJS   |
+    |     5| SASS      |
+    
+  </details>
+
+  -------------
+  -------------
 
 ## **Write Code:**
 If you want to write code and want to show as like as code editor than use this syntax:
@@ -458,3 +491,5 @@ Here is a simple flow chart:
       Document-->Window;      
 
 ```
+
+
