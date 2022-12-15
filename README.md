@@ -130,7 +130,7 @@ Syntax:
 ---
 
 ## **List With Checkbox:**
-To make checkbox list you have to use * `space` [x].
+To make checkbox list you have to use * `space` [x] for checked and [ ] for unchecked item.
 
 Syntax:
 ```
@@ -312,6 +312,8 @@ You can also use words, to fit your writing style more closely[^note].
     Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
     This footnote also has been made with a different syntax using 4 spaces for new lines.
 ```
+
+#### **`Output:`**
 Here is a simple footnote[^1].
 
 A footnote can also have multiple lines[^2].  
@@ -327,6 +329,28 @@ You can also use words, to fit your writing style more closely[^note].
 
 ---------------------
 ---------------------
+
+## **Mathmatical Expressions:**
+
+```
+ $\sqrt{3x-1}+(1+x)^2$
+```
+#### **`Output:`**
+ $\sqrt{3x-1}+(1+x)^2$
+
+---------------
+---------------
+
+##  **chart:**
+Here is a simple flow chart:
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
 
 
 h
