@@ -3,6 +3,7 @@
 Currently you are reading a README.md `.md` file. Let's learn how to write `.md` file.
 
 ---
+---
 ## **Header create:**
 To create header you have to use # (# your text).
 If you know HTML syntax it will be easy to you:
@@ -24,6 +25,7 @@ If you know HTML syntax it will be easy to you:
   ##### = h5 (5th bigger)
   ###### = h6 (and 6th bigger)
 ---
+---
 
 ## **Make text bold:**
 To make text **bold** you have to use ** (double star). And you have to wrap the text with **.
@@ -43,6 +45,7 @@ Syntax:
  - [x] **NOTE:** There should not have a `space` begining and ending of **(dobule star). If have it will not work: ** it will not work **.
 
  ---
+ ---
 
 ## ***Text Italic:***
 To make text _italic_ you have to use *(single star) or, _ (single underscore) and don't use `space` begin and end.
@@ -56,6 +59,7 @@ Syntax:
 #### **`Output:`**
   *This is italic text.*
 
+---
 ---
 
 ## Make text **Bold +** ***Italic:***
@@ -73,6 +77,7 @@ or,
 **_italic bold text_**
 
 ---
+---
 
 ## **Make text highlight:**
 To make text `highlighted` you have to use ``.
@@ -85,8 +90,27 @@ Syntax:
   `I'm highlighted text.`
 
 ---
+---
 
-## **Make List:**
+## **Make Order List:**
+
+To make a order list follow below syntax:
+```
+  1. Order item one.
+  1. Order item 2.
+  1. Order item 3
+  1. order item 4
+```
+#### **`Output:`**
+  1. Order item one.
+  1. Order item 2.
+  1. Order item 3
+  1. order item 4
+
+---
+---
+
+## **Make Unorder List:**
 To make list you have to use *(single star) or, -(single hyphen) and `space` at the begining of line.
 
 Syntax:
@@ -100,6 +124,7 @@ Syntax:
   * I'm list item using (*)
   
 ---
+---
 
 ## **List With Checkbox:**
 To make checkbox list you have to use * `space` [x].
@@ -111,6 +136,7 @@ Syntax:
 #### **`Output:`**
   * [x] Checkbox list item
 
+---
 ---
 
 ## **Use Link Text:**
@@ -124,6 +150,7 @@ Syntax:
 #### **`Output:`**
 ***[Go to google](https://google.com)***
 
+---
 ---
 
 ## **Create Table:**
@@ -140,6 +167,7 @@ Syntax:
 | `Keya Payel`  | Actor          | myemail123@gmail.com       |
 | `Asik Ali`    | Web Developer  | myemail234@gmail.com       |
 
+---
 ---
 
 ## **🔗 Links Design**
@@ -183,18 +211,25 @@ Design your badge with this link: modify this `api` change `<LABEL>, <MESSAGE> a
 ![](https://img.shields.io/badge/NOOP!!!-Failure-f00)
 
 ---
+---
 
 ## **Create Line:**
-To create horaizontal line you have to use ---(triple hyphen) or, ___(3 underscore).
+To create horaizontal line you have to use ---(triple hyphen/more) or, ___(3 underscore/more).
 
 Syntax:
 ```
   ---
   or,
+  -----------------
+  or,
   ___
+  or,
+  __________________
 ```
 #### **`Output:`**
 ---
+--------------
+_______________
 ___
 
 ## **Write Code:**
@@ -232,16 +267,31 @@ If you want to write code and want to show as like as code editor than use this 
 
 ```
 ---
+---
 ## **ADD ScreenShort:**
 
 syntax:
 ```
 ![App Screenshot](https://your-short-link)
 ```
+#### **`Output:`**
 ![App Screenshot](https://github.com/code2-0/TestingImages/blob/main/img/code2-0.png)
 
+---
+---
 
+## **Strikethrough:**
+To make text Strikethrough use below syntax:
+```
+  ~~Strikethrough~~
+```
+#### **`Output:`**
+~~Strikethrough~~
 
+---------------
+---------------
+
+`#000` 	`#RRGGBB`
 
 
 h
